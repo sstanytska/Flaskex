@@ -1,3 +1,4 @@
+{
 properties([parameters([string(defaultValue: '127.0.0.1', description: 'Please give to build IP', name: 'IP', trim: true)])])
    
     stage("Install git"){
